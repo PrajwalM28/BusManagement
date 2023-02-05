@@ -1,0 +1,111 @@
+*{
+    margin:auto 0;
+    padding:auto 0;
+}
+
+body{
+    background-image: url("https://thumbs.dreamstime.com/z/white-bus-moving-fast-road-modern-city-light-effect-background-159858315.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+ul{
+    background-color: blue;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    padding:1em;
+    height:10vh;
+    font-size: 1em;
+
+}
+
+ul:hover{
+    color: red;
+}
+
+@media only screen and (max-width:600px) {
+    ul{
+        font-size: 0.5em;
+        padding:0;
+    }
+}
+
+
+.large{
+    font-size: 2em;
+    display:flex;
+    color:blue;
+}
+
+.zone{
+    justify-content: flex-start;
+    background-color: blue;
+    color:white;
+    margin-right: 40rem;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 1em;
+}
+
+
+
+
+
+.container{
+    margin:auto 555px;
+    /* padding:180px auto; */
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    height: 100vh;
+}
+
+.text-center{
+    margin:200px 0px 20px 395px;
+}
+
+hr{
+    margin:30px auto;
+    color:#f05f44;
+    border:3px solid #f05f44;
+    max-width:250px;
+    opacity:1;
+}
+
+
+
+.btn{
+    background-color: black;
+    color:white;
+    border-radius:10px;
+    padding:auto 20px;
+}
+
+.btn:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width:14px;
+}
+
+.blue{
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    color:black;
+    height:15vh;
+    font-size: 2em;
+}
